@@ -1,0 +1,80 @@
+body {
+  font-family: "Inter", sans-serif;
+  background: #dbe4f0;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 400;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+.main_wrapper {
+  position: relative;
+}
+.bg_img img {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.sc_logo img {
+  width: 100px;
+}
+.wishfin_logo img {
+  width: 85px;
+}
+.apply-btn {
+  background: #43973A;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 24px;
+  gap: 15px;
+  max-width: 258px;
+  height: 58px;
+  width: 100%;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #ffffff;
+  text-decoration: none;
+  margin: 15px 0;
+  border: 0;
+}
+.apply-btn:hover,
+.apply-btn:focus,
+.apply-btn:active {
+  background: green;
+  color: #ffffff;
+  text-decoration: none;
+  box-shadow: none;
+  outline: none;
+}
+
+@media screen and (max-width: 767.98px){
+  .sc_logo img {
+    width: 80px;
+  }
+  .wishfin_logo img {
+    width: 65px;
+  }
+  .apply-btn {
+    max-width: 210px;
+    height: 46px;
+  }
+}

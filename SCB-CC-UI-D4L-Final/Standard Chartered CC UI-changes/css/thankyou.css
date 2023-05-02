@@ -1,0 +1,52 @@
+.card {
+  border-top: 5px solid #74CE53;
+  padding: 100px 15px;
+  margin-top: 100px;
+  background: #ffffff;
+  box-shadow: 0px 2px 22px rgba(208, 217, 230, 0.23);
+  border-radius: 4px;
+}
+.card h5 {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 36px;
+  text-align: center;
+  letter-spacing: -0.0124em;
+  color: #0c4669;
+}
+.card p {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 26px;
+  text-align: center;
+  letter-spacing: -0.0048em;
+  color: #27364b;
+  margin: 10px 0 35px 0;
+}
+.msg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 44px;
+  background: #f5f9ff;
+  box-shadow: 0px 1px 6px rgb(0 0 0 / 13%);
+  border-radius: 6px;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 18px;
+  padding: 10px;
+  text-align: center;
+  color: #27364b;
+  height: auto;
+}
+.msg img {
+  margin-right: 10px;
+}
+@media screen and (max-width: 575.98px) {
+  .msg {
+    padding: 10px;
+  }
+  .card p {
+    line-height: 18px;
+  }
+}
